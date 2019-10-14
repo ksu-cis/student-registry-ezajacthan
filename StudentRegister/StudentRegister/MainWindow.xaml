@@ -27,11 +27,11 @@
                     <StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Width="100" Text="First Name: "></TextBlock>
-                            <TextBlock Width="200" Text="{Binding Path=First}"></TextBlock>
+                            <TextBox Width="200" Text="{Binding Path=First}"></TextBox>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Width="100" Text="Last Name: "></TextBlock>
-                            <TextBlock Width="200" Text="{Binding Path=Last}"></TextBlock>
+                            <TextBox Width="200" Text="{Binding Path=Last}"></TextBox>
                         </StackPanel>
                     </StackPanel>
                 </DataTemplate>
